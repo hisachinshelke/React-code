@@ -26,7 +26,9 @@ const name = "Sachin Baburao Shelke!!"
 
 const HeadingComponent = () => (
     <div className="container">
-        <TitleComponent />
+        First way: <TitleComponent />
+        Second way: <TitleComponent></TitleComponent>
+        Third way: {TitleComponent()}
         <h1 id="heading">This is Heading component!!</h1>
         <h2>My Name is {name}</h2>
         {10 + 80}
